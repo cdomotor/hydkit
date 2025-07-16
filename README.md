@@ -53,4 +53,4 @@ HydroField is a cross-platform field data collection tool for anyone in hydrogra
 
 ## License
 
-MIT License © 2025 Your Name or Org
+MIT License © 2025 Cameron Domotor
