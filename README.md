@@ -1,7 +1,7 @@
 
 # HydroField App
 
-HydroField is a cross-platform field data collection tool for hydrographic surveyors. It supports offline-first workflows and integrates photos, survey data, GPS, RTK, LiDAR, and barcode-based sample tracking into a unified mobile and web-based system.
+HydroField is a cross-platform field data collection tool for anyone in hydrographic industry. It supports offline-first workflows and will integrate photos, survey data, GPS, RTK, LiDAR, and barcode-based sample tracking into a unified mobile and web-based system.
 
 ## Features
 
