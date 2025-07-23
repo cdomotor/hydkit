@@ -4,6 +4,7 @@ import 'screens/stream_survey_screen.dart';
 import 'screens/stream_survey_list_screen.dart';
 import 'screens/sample_list_screen.dart';
 import 'screens/log_screen.dart';
+import 'screens/water_sample_screen.dart';
 
 void main() {
   runApp(const HydroFieldApp());
@@ -47,6 +48,12 @@ class HomeScreen extends StatelessWidget {
             title: const Text('Unsynced Stream Surveys'),
             onTap: () => Navigator.of(context).push(
               MaterialPageRoute(builder: (_) => const StreamSurveyListScreen()),
+            ),
+          ),
+          ListTile(
+            title: const Text('New Water Sample'),
+            onTap: () => Navigator.of(context).push(
+              MaterialPageRoute(builder: (_) => const WaterSampleScreen()),
             ),
           ),
           ListTile(
