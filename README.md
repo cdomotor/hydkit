@@ -37,17 +37,17 @@ HydroField is a cross-platform field data collection tool for anyone in hydrogra
 
 3. Run the app:
    ```bash
-   flutter run
+   flutter run main.dart
    ```
 
 ## Folder Structure
 
 ```
-/lib
-  /models         # Data models
-  /screens        # UI screens
-  /services       # Sync, storage, sensors
-/specs
+main.dart        # Application entry point
+models/          # Data models
+screens/         # UI screens
+services/        # Sync, storage, sensors
+specs/
   hydrofield_spec.md
 ```
 
